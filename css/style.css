@@ -1,0 +1,305 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+.banner {
+    background-image: url('../media/banner1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.banner-text h1 {
+    text-align: right;
+    padding-top: 375px;
+    padding-right: 100px;
+    font-size: 64px;
+    text-transform: capitalize;
+}
+.d-text1{
+    color:rgb(255, 153, 0);
+    font-size: 53px;
+}
+
+.banner-text p {
+    text-align: right;
+    font-size: 20px;
+    padding-top: 25px;
+    padding-right: 100px;
+    padding-bottom: 35px;
+}
+.btn1{
+    text-decoration: none;
+    background-color: rgb(255, 153, 0);
+    padding: 17px;
+    color: white;
+    margin-left: 900px;
+    border-radius: 11px ;
+    text-transform: capitalize;
+}
+/* header end */
+
+.main-section1{
+    margin: 90px 100px 0px 100px;
+
+}
+.s-row1{
+    display: flex;
+    justify-content: space-around;
+}
+.right-cl1{
+    flex-basis:48%;
+}
+.left-cl1{
+    flex-basis: 48%;
+    text-align: center;
+
+}
+.right-cl1 h1{
+    font-size: 50px;
+    text-transform: capitalize;
+    border-left: 3px solid rgb(255, 153, 0);
+    padding-left: 15px;
+    margin-top: 185px;
+}
+.right-cl1 p{
+    color: gray;
+    padding-top: 20px;
+    text-transform: capitalize;
+    line-height: 20px;
+    padding-bottom: 30px;
+    
+}
+.right-cl1 h2{
+    font-size: 35px;
+    text-transform: capitalize;
+    padding-bottom: 15px;
+}
+.d-text2{
+    color:rgb(255, 153, 0);
+    font-size: 30px;;
+}
+.right-cl1 ul li{
+    list-style-type: square;
+    margin-left: 18px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: rgb(64, 61, 56);
+    
+}
+.extra-p{
+    color: gray;
+    padding-top: 20px;
+    text-transform: capitalize;
+    line-height: 20px;
+    padding-bottom: 30px;
+
+}
+
+.btn2{
+    text-decoration: none;
+    background-color: rgb(255, 153, 0);
+    padding: 17px;
+    color: white;
+    border-radius: 11px ;
+    text-transform: capitalize;
+}
+/* main section one end */
+
+.main-section2{
+    margin: 90px 100px 0px 100px;
+
+}
+.main-section2 h1{
+    text-transform: capitalize;
+    font-size: 40px;
+    text-align: center;
+}
+.d-text3{
+    color: rgb(255, 153, 0);
+}
+/* main section two end */
+.main-section3{
+    margin: 90px 100px 0px 100px;
+
+}
+.box-section{
+    display: flex;
+    justify-content: space-between;
+}
+.box1 h3{
+    padding: 10px;
+    font-size: 25px;
+}
+.box2 h3{
+    padding: 10px;
+    font-size: 25px;
+}
+.box3 h3{
+    padding: 10px;
+    font-size: 25px;
+}
+.box4 h3{
+    padding: 10px;
+    font-size: 25px;
+}
+.box1 p{
+    color:rgb(64, 61, 56);
+    font-size: 20px;
+}
+
+.box2 p{
+    color:rgb(64, 61, 56);
+    font-size: 20px;
+}
+
+.box3 p{
+    color:rgb(64, 61, 56);
+    font-size: 20px;
+}
+
+
+.box4 p{
+    color:rgb(64, 61, 56);
+    font-size: 20px;
+}
+/* box section end */
+.main-form-section{
+    margin: 90px 100px 0px 100px;
+
+}
+.form-heading h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 40px;
+    color:rgb(255, 153, 0);
+    padding-bottom: 80px;
+}
+form{
+    margin: auto;
+    width:500px;
+    
+}
+input{
+    width:100%;
+    padding:10px 0;
+    border-radius: 6px;
+    border:0;
+    background-color: rgb(244, 230, 230);
+}
+form p{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+textarea{
+    width:100%;
+    padding:10px 0;
+    border-radius: 6px;
+    border:0;
+    background-color: rgb(244, 230, 230);
+
+}
+.submit-btn{
+    background-color: rgb(255, 153, 0);
+    color: white;
+    width: 200px;
+    text-transform: capitalize;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.submit-btn:hover{
+    background-color: rgb(244, 230, 230);
+    color:rgb(255, 153, 0);
+}
+.btn1:hover{
+    background-color: rgb(244, 230, 230);
+    color:rgb(255, 153, 0);
+
+}
+.btn2:hover{
+    background-color: rgb(244, 230, 230);
+    color:rgb(255, 153, 0);
+}
+/* form end */
+.main-section4{
+    margin: 90px 250px 0px 250px;
+
+}
+.s-row2{
+    background-image: url('../media/watch.png');
+   
+    height: 500px;
+    background-repeat: no-repeat;
+}
+.s-row2 h1{
+    padding-top: 100px;
+    padding-bottom: 30px;
+    font-size: 28px;
+    font-weight: 200px;
+}
+.btn3{
+    text-decoration: none;
+    background-color: rgb(255, 153, 0);
+    padding: 17px;
+    color: white;
+    border-radius: 11px ;
+    text-transform: capitalize;
+    
+
+}
+.btn3:hover{
+    background-color: rgb(244, 230, 230);
+    color:rgb(255, 153, 0);
+
+}
+/* main section 4 end */
+footer{
+    background-color: rgb(255, 153, 0);
+
+}
+.s-row3{
+    display: flex;
+    justify-content: space-between;
+}
+.right-cl2{
+    flex-basis: 48%;
+    padding-left: 35px;
+}
+.left-cl2{
+    flex-basis: 48%;
+    padding-left: 35px;
+    
+}
+.right-cl2 h3{
+    font-size: 28px;
+    color: white;
+    text-transform: capitalize;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+.left-cl2 h3{
+    font-size: 28px;
+    color: white;
+    text-transform: capitalize;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+
+}
+.right-cl2 p{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: white;
+    padding-bottom: 50px;
+
+}
+.f-image{ 
+    margin-left: 200px;
+}
+/* footer done */
